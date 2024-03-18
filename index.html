@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>BalonKUN</title>
+    </head>
+    <body>
+        <!-- Nav Start -->
+        <nav class="fixed top-0 inset-x-0 py-8">
+            <div class="container flex items-center justify-between">
+                <div class="flex items-center gap-20">
+                    <a href="#" class="font-black text-2xl text-white">BALONKUN</a>
+                    <div class="flex gap-8">
+                        <a class="text-white" href="#">Destinasi</a>
+                        <a class="text-white" href="#">Tentang Kami</a>
+                        <a class="text-white" href="#">Kontak Kami</a>
+                    </div>
+                </div>
+                <button
+                    class="bg-black/50 backdrop-blur-sm py-4 px-6 rounded-full font-medium flex items-center gap-2 text-lg text-white"
+                >
+                    Hubungi Kami
+                    <span class="bg-white size-8 rounded-full grid place-items-center">
+                        <i class="icon-[logos--whatsapp-icon] text-2xl"></i>
+                    </span>
+                </button>
+            </div>
+        </nav>
+        <!-- Nav End -->
+
+        <!-- Main Section -->
+        <main class="grid grid-cols-2 min-h-dvh">
+            <div
+                class="bg-[url('/img/bg-hero-1.png')] h-full bg-no-repeat bg-cover p-20 flex justify-center flex-col space-y-10"
+            >
+                <h1 class="font-bold text-7xl text-white leading-tight">
+                    Nikmati Liburanmu Bersama
+                    <span class="text-secondary-500">BalonKUN</span>
+                    Travel
+                </h1>
+                <p class="text-gray-400 text-xl leading-relaxed">
+                    Dengan BalonKUN kamu bisa merasakan pengalaman baru dengan menaiki balon udara dengan pemandangan
+                    sekitar yang sangat indah untuk memanjakan mata anda.
+                </p>
+                <div class="flex gap-8">
+                    <button
+                        class="bg-gradient-to-br from-secondary-300 to-secondary-500 py-4 px-6 rounded-full font-medium flex items-center gap-2 text-lg shadow-xl shadow-secondary-600/50"
+                    >
+                        Lihat Destinasi
+                        <span class="bg-gray-800 text-white size-8 rounded-full grid place-items-center">
+                            <i class="icon-[akar-icons--chevron-right-small] text-2xl"></i>
+                        </span>
+                    </button>
+                    <button class="flex items-center gap-2 text-lg text-white">
+                        <div class="bg-white/20 p-2 rounded-full">
+                            <span class="bg-white size-8 rounded-full grid place-items-center relative">
+                                <i class="icon-[ion--play] bg-gradient-to-br from-secondary-300 to-secondary-500"></i>
+                            </span>
+                        </div>
+                        Galeri Kami
+                    </button>
+                </div>
+            </div>
+            <div class="bg-[url('/img/bg-hero-2.png')] h-full bg-no-repeat bg-cover flex items-center">
+                <div class="swiper">
+                    <div class="swiper-wrapper pb-12">
+                        <div class="swiper-slide !w-[420px] mx-auto bg-gray-100 rounded-2xl overflow-hidden">
+                            <div
+                                class="aspect-[4/3] bg-[url('/img/cappadocia.png')] bg-cover grid place-items-center relative"
+                            >
+                                <div
+                                    class="bg-black/20 backdrop-blur-sm gap-2 flex items-center absolute left-4 top-4 rounded-full py-1 pl-1 pr-3"
+                                >
+                                    <span
+                                        class="bg-gradient-to-br from-secondary-300 to-secondary-500 size-8 rounded-full grid place-items-center relative"
+                                    >
+                                        <i class="icon-[ion--star] bg-white"></i>
+                                    </span>
+                                    <span class="text-white">5.0</span>
+                                </div>
+                                <div
+                                    class="bg-white/20 backdrop-blur-sm gap-2 flex items-center absolute right-4 top-4 rounded-full py-2 px-3"
+                                >
+                                    <i class="icon-[mingcute--location-fill] bg-white text-xl"></i>
+                                    <span class="text-white">Turkey</span>
+                                </div>
+                                <div class="bg-white/20 p-3 rounded-full">
+                                    <span class="bg-white size-16 rounded-full grid place-items-center relative">
+                                        <i
+                                            class="icon-[ion--play] text-4xl bg-gradient-to-br from-secondary-300 to-secondary-500"
+                                        ></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-b-2xl p-6">
+                                <h2 class="text-2xl font-montserrat font-bold mb-2">Cappadocia</h2>
+                                <p class="line-clamp-2 text-gray-500">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas recusandae at
+                                    soluta repellendus asperiores doloremque consectetur excepturi odit id reiciendis,
+                                    sapiente illo cum quis, nesciunt suscipit corporis inventore nulla.
+                                </p>
+                                <a href="#" class="text-primary-600">Baca Selengkapnya</a>
+                            </div>
+                            <div class="p-6 flex items-center gap-4">
+                                <div class="w-full grid gap-1">
+                                    <span class="text-gray-500">Harga</span>
+                                    <span class="font-bold text-2xl font-montserrat">
+                                        Rp1,799,000<span class="font-normal text-lg text-gray-500">/Orang</span>
+                                    </span>
+                                </div>
+                                <button
+                                    class="bg-gradient-to-br from-primary-400 to-primary-600 text-white py-3 px-6 rounded-full shadow-lg shrink-0"
+                                >
+                                    Pesan Tiket
+                                </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide !w-[420px] mx-auto bg-gray-100 rounded-2xl overflow-hidden">
+                            <div
+                                class="aspect-[4/3] bg-[url('/img/luxor.png')] bg-cover grid place-items-center relative"
+                            >
+                                <div
+                                    class="bg-black/20 backdrop-blur-sm gap-2 flex items-center absolute left-4 top-4 rounded-full py-1 pl-1 pr-3"
+                                >
+                                    <span
+                                        class="bg-gradient-to-br from-secondary-300 to-secondary-500 size-8 rounded-full grid place-items-center relative"
+                                    >
+                                        <i class="icon-[ion--star] bg-white"></i>
+                                    </span>
+                                    <span class="text-white">4.5</span>
+                                </div>
+                                <div
+                                    class="bg-white/20 backdrop-blur-sm gap-2 flex items-center absolute right-4 top-4 rounded-full py-2 px-3"
+                                >
+                                    <i class="icon-[mingcute--location-fill] bg-white text-xl"></i>
+                                    <span class="text-white">Egypt</span>
+                                </div>
+                                <div class="bg-white/20 p-3 rounded-full">
+                                    <span class="bg-white size-16 rounded-full grid place-items-center relative">
+                                        <i
+                                            class="icon-[ion--play] text-4xl bg-gradient-to-br from-secondary-300 to-secondary-500"
+                                        ></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-b-2xl p-6">
+                                <h2 class="text-2xl font-montserrat font-bold mb-2">Luxor</h2>
+                                <p class="line-clamp-2 text-gray-500">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas recusandae at
+                                    soluta repellendus asperiores doloremque consectetur excepturi odit id reiciendis,
+                                    sapiente illo cum quis, nesciunt suscipit corporis inventore nulla.
+                                </p>
+                                <a href="#" class="text-primary-600">Baca Selengkapnya</a>
+                            </div>
+                            <div class="p-6 flex items-center gap-4">
+                                <div class="w-full grid gap-1">
+                                    <span class="text-gray-500">Harga</span>
+                                    <span class="font-bold text-2xl font-montserrat">
+                                        Rp1,799,000<span class="font-normal text-lg text-gray-500">/Orang</span>
+                                    </span>
+                                </div>
+                                <button
+                                    class="bg-gradient-to-br from-primary-400 to-primary-600 text-white py-3 px-6 rounded-full shadow-lg shrink-0"
+                                >
+                                    Pesan Tiket
+                                </button>
+                            </div>
+                        </div>
+                        <div class="swiper-slide !w-[420px] mx-auto bg-gray-100 rounded-2xl overflow-hidden">
+                            <div
+                                class="aspect-[4/3] bg-[url('/img/bagan.png')] bg-cover grid place-items-center relative"
+                            >
+                                <div
+                                    class="bg-black/20 backdrop-blur-sm gap-2 flex items-center absolute left-4 top-4 rounded-full py-1 pl-1 pr-3"
+                                >
+                                    <span
+                                        class="bg-gradient-to-br from-secondary-300 to-secondary-500 size-8 rounded-full grid place-items-center relative"
+                                    >
+                                        <i class="icon-[ion--star] bg-white"></i>
+                                    </span>
+                                    <span class="text-white">4.5</span>
+                                </div>
+                                <div
+                                    class="bg-white/20 backdrop-blur-sm gap-2 flex items-center absolute right-4 top-4 rounded-full py-2 px-3"
+                                >
+                                    <i class="icon-[mingcute--location-fill] bg-white text-xl"></i>
+                                    <span class="text-white">Myanmar</span>
+                                </div>
+                                <div class="bg-white/20 p-3 rounded-full">
+                                    <span class="bg-white size-16 rounded-full grid place-items-center relative">
+                                        <i
+                                            class="icon-[ion--play] text-4xl bg-gradient-to-br from-secondary-300 to-secondary-500"
+                                        ></i>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="bg-white rounded-b-2xl p-6">
+                                <h2 class="text-2xl font-montserrat font-bold mb-2">Bagan</h2>
+                                <p class="line-clamp-2 text-gray-500">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam quas recusandae at
+                                    soluta repellendus asperiores doloremque consectetur excepturi odit id reiciendis,
+                                    sapiente illo cum quis, nesciunt suscipit corporis inventore nulla.
+                                </p>
+                                <a href="#" class="text-primary-600">Baca Selengkapnya</a>
+                            </div>
+                            <div class="p-6 flex items-center gap-4">
+                                <div class="w-full grid gap-1">
+                                    <span class="text-gray-500">Harga</span>
+                                    <span class="font-bold text-2xl font-montserrat">
+                                        Rp1,799,000<span class="font-normal text-lg text-gray-500">/Orang</span>
+                                    </span>
+                                </div>
+                                <button
+                                    class="bg-gradient-to-br from-primary-400 to-primary-600 text-white py-3 px-6 rounded-full shadow-lg shrink-0"
+                                >
+                                    Pesan Tiket
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination flex gap-2 justify-center"></div>
+
+                    <button class="swiper-button-prev z-10 absolute top-1/2 -translate-y-1/2 left-28">
+                        <div class="bg-white/20 p-3 rounded-full backdrop-blur-sm">
+                            <span
+                                class="bg-gradient-to-br from-secondary-300 to-secondary-500 size-16 rounded-full grid place-items-center relative"
+                            >
+                                <i class="icon-[akar-icons--arrow-left] text-4xl bg-black"></i>
+                            </span>
+                        </div>
+                    </button>
+                    <button class="swiper-button-next z-10 absolute top-1/2 -translate-y-1/2 right-28">
+                        <div class="bg-white/20 p-3 rounded-full backdrop-blur-sm">
+                            <span
+                                class="bg-gradient-to-br from-secondary-300 to-secondary-500 size-16 rounded-full grid place-items-center relative"
+                            >
+                                <i class="icon-[akar-icons--arrow-right] text-4xl bg-black"></i>
+                            </span>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </main>
+        <!-- End Main Section -->
+        <script type="module" src="/src/main.ts"></script>
+    </body>
+</html>
